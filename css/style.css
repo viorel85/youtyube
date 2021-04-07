@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right: 70px;
+  margin-bottom: 30px;
+}
+.menu-button {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:#fff;
+  width: 20px;
+  height: 17px;
+  border: none;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.menu-line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background: #1F2022;
+  border-radius: 20px;
+}
+.logo {
+  margin-right: 59px;
+}
+.input-group {
+  background: #EBEBEB;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 17px;
+  align-items: center;
+  max-width: 830px;
+  width: 50%;
+
+}
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.button-search {
+  padding: 0;
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon-search {
+  fill:#000;
+}
+.icons {
+  display: flex;
+  align-items:center;
+  margin-left: auto;
+}
+.icons-link{
+  text-decoration: none;
+  opacity: 0.24;
+}
+
+.icons-link:hover {
+  opacity: 0.8;
+}
+
+.icons-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.user{
+  margin-left: 45px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color:#898989;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color:#FF0000;
+}
+.nav-link:hover .icon{
+  fill:#FF0000;
+}
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style: none;
+}
+.nav-item {
+  margin-bottom: 25px;
+ 
+  color: #898989;
+}
+.nav-item .icon {
+  fill: #898989;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.nav-image {
+  widows: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.nav-title {
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 30px;
+}
